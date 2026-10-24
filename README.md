@@ -4,7 +4,7 @@
 
 Finders post what they found with the identifying mark blurred, and set one question about it. Owners prove the item is theirs by answering that question, talk to the finder through a masked chat, and close the case with a one-time 4-digit code at a safe spot on campus. Nobody's phone number, email or room number is ever shown to another student.
 
-> **Live demo:** add your GitHub Pages link here after the first deploy (see [Deployment](#deployment)).
+> **Live demo:** https://jatin-code16.github.io/Lost-Found/
 > No sign-up needed: pick a demo account in the bar at the top of the page.
 
 ![The Kho-Paya landing page: one big lost-property tag with the headline "The mark you hide is the key." and a try-to-claim demo](docs/screenshots/landing.png)
