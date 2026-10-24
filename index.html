@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kho-Paya: campus lost and found</title>
+  <meta name="description" content="Post what you found on campus without your phone number. The owner proves it is theirs by naming the detail your photo hides.">
+  <meta name="theme-color" content="#DCE2E9">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Teko:wght@500;600&display=swap">
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+
+  <div class="demo-strip" role="region" aria-label="Demo controls">
+    <div class="wrap demo-inner">
+      <p class="demo-note">Demo build: sign-in is simulated and all data stays in this browser.</p>
+      <label class="demo-as">
+        <span>Viewing as</span>
+        <select id="demo-user"></select>
+      </label>
+      <button type="button" class="btn-quiet" id="demo-reset">Reset demo</button>
+    </div>
+  </div>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <a class="mark" href="#/" aria-label="Kho-Paya home">
+        <span class="mark-hole" aria-hidden="true"></span>
+        <span class="mark-en">Kho-Paya</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul id="nav-list"></ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view" class="wrap" tabindex="-1">
+    <noscript><p class="panel">Kho-Paya needs JavaScript to post, claim and chat.</p></noscript>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p class="foot-rule">No phone number, email or room number is ever shown to another student. Messages travel; contact does not.</p>
+      <ul class="foot-links">
+        <li><a href="#/privacy">Privacy notice</a></li>
+        <li><a href="#/desk-info">Safe spots and hours</a></li>
+      </ul>
+      <p class="foot-small">Zones, safe spots, hours and the email domain are sample values for this demo. Replace them with your campus's own.</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/store.js"></script>
+  <script src="assets/drawings.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

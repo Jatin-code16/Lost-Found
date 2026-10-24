@@ -1,0 +1,12 @@
+{
+  "name": "kho-paya",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Campus lost and found with private recovery: hidden-detail claims, masked chat, one-time handover codes.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node .agents/skills/slop-audit/scripts/slop-check.mjs .",
+    "render": "node .agents/skills/slop-audit/scripts/render-check.mjs http://localhost:5173"
+  }
+}

@@ -1,0 +1,29 @@
+# Dependencies (the app has none; this covers local tooling such as Playwright)
+node_modules/
+
+# Scanner and test output
+.slop-check/
+test-results/
+playwright-report/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files. The app needs no secrets; keep it that way.
+.env
+.env.*
+
+# Local Claude Code settings (personal, not shared)
+.claude/settings.local.json
+
+# Deploy build folder made by the GitHub Pages workflow
+_site/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
